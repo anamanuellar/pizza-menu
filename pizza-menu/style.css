@@ -59,7 +59,7 @@ body {
   }
   .slogan{
     background-color: #f8f8f8;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,22 +77,46 @@ body {
 }
 .container{
     position: flex;
+    background-color: #ffffff opacity transparent;
     vertical-align: right;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
+.container .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    opacity: .1;
+      width: 100%;
+      height: 100%;
+  }
 .subheading {
     font-family: "Nothing You Could Do", cursive;
-    font-size: 30px;
-    color: #fac564;                     
+    font-size: 60px;
+    color: #fac564;     
+    margin-left: 100px;                
 }
 h1 {
     text-transform: uppercase;
     font-size: 40px;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     color: #fff;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 1px; 
+    margin-left: 120px;
+}
+p {
+    font-size: 25px;
+    font-family: "Poppins";
     line-height: 1.5;
     font-weight: normal;
     letter-spacing: 1px; 
+    margin-left: 200px;
+    color: #fff;
 }
