@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  header {
+    background-color: #2d2d2d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+  }
+  .logo span {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #ececec;
+    font-family: "Josefin Sans";
+  }
+  .logo small {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #ececec;
+    font-family: "Poppins", sans-serif;
+   
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    display: inline-block;
+   
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ececec;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
