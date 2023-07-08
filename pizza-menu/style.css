@@ -69,24 +69,23 @@ body {
     z-index: 0; 
 }
   .img-fluid {
+    display: grid;
+    position: absolute;    
     max-width: 100%;
-    height: 500px; 
-    display: flex;  
-    justify-content: left;
-    align-items: left;
-
+    height: 500px;    
+   
 }
 .container{
-    display: flex;  
+    position: flex;
+    vertical-align: right;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
 .subheading {
     font-family: "Nothing You Could Do", cursive;
     font-size: 30px;
-    color: #fac564; 
-          
-          
+    color: #fac564;                     
 }
 h1 {
     text-transform: uppercase;
