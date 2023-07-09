@@ -177,7 +177,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 550px;
+  height: auto;
   position: relative;
   z-index: 0; 
 }
@@ -190,6 +190,24 @@ h1 {
 .slogan-menu {
   color: #a4a4a4;
   font-family: "Poppins";
-  font-size: 15px;
-  
+  font-size: 15px; 
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 0;
+}
+.menu > div {
+  padding: 10px;
+}
+.pic{
+  width: 140px;
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
 }
