@@ -181,3 +181,15 @@ h1 {
   position: relative;
   z-index: 0; 
 }
+.title-menu {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ececec;
+  font-family: "Josefin Sans";
+}
+.slogan-menu {
+  color: #a4a4a4;
+  font-family: "Poppins";
+  font-size: 15px;
+  
+}
