@@ -57,6 +57,7 @@ body {
     margin-right: 0;
   }
   .slogan{
+    background-image: url(images/bg_1.jpg);
     background-color: #f8f8f8;
     padding: 10px;
     text-align: center;
@@ -110,7 +111,7 @@ h1 {
     letter-spacing: 1px; 
     margin-left: 120px;
 }
-p {
+.slogan-text {
     font-size: 25px;
     font-family: "Poppins";
     line-height: 1.5;
@@ -125,7 +126,6 @@ p {
     text-shadow: 10px 5px 4px #000000;
 }
 
-/* CSS */
 .btn {
   align-items: center;
   background-clip: padding-box;
@@ -169,4 +169,15 @@ p {
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
+}
+.main-content{
+  background-image: url(images/bg_4.jpg);
+  padding: 10px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 550px;
+  position: relative;
+  z-index: 0; 
 }
