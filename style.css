@@ -112,12 +112,15 @@ h1 {
     margin-left: 120px;
 }
 .slogan-text {
+    display: absolute;
+    text-wrap: break-word;
     font-size: 25px;
     font-family: "Poppins";
     line-height: 1.5;
     font-weight: normal;
     letter-spacing: 1px; 
-    margin-left: 200px;
+    margin-left: 35%;
+    margin-right: 150px;
     color: #fff;
     text-shadow: 10px 5px 4px #000000;
 }
@@ -196,10 +199,11 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 0;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
 }
 .menu > div {
-  padding: 10px;
+  padding: 3px;
 }
 .pic{
   width: 140px;
@@ -210,4 +214,21 @@ h1 {
   max-width: 100%;
   vertical-align: middle;
   border-style: none;
+}
+.pizza-name{
+  letter-spacing: 1.5px;
+  color: #ececec;
+  font-family: "Josefin Sans";
+}
+.pizza-detail {
+  color: #a4a4a4;
+  font-family: "Poppins";
+  font-size: 13px; 
+  text-align: center; 
+}
+.price{
+  font-family: "Poppins";
+  color: #fac564; 
+  font-size: 15px;
+
 }
