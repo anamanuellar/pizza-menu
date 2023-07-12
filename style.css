@@ -73,11 +73,11 @@ body {
     position: absolute;    
     max-width: 100%;
     height: 500px;    
+    padding-right: 20px;
    
 }
 .container{
     position: flex;
-    background-color: #ffffff opacity transparent;
     vertical-align: right;
     margin-top: 50px;
     justify-content: center;
@@ -173,6 +173,45 @@ h1 {
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
+/* Responsive */
+@media (max-width: 768px) {
+  .subheading {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-left: 70px;
+  }
+
+  .slogan-text {
+    margin-left: 10%;
+    margin-right: 10px;
+  }
+
+  .btn {
+    margin: 0 10px 0 100px;
+  }
+}
+@media (max-width: 1280px) {
+  .img-fluid {
+    position: static;
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+
+  .subheading,
+  h1,
+  .slogan-text,
+  .text-slogan,
+  .btn {
+    margin-right: 0;
+  }
+}
+
 .main-content{
   background-image: url(images/bg_4.jpg);
   padding: 10px;
@@ -201,6 +240,7 @@ h1 {
   grid-template-rows: auto;
   grid-column-gap: 10px;
   grid-row-gap: 30px;
+  margin: 0 30px 0 30px;
 }
 .menu > div {
   padding: 3px;
@@ -231,4 +271,106 @@ h1 {
   color: #fac564; 
   font-size: 15px;
 
+}
+h2 {
+  padding: 20px;
+}
+
+.order-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 1200px; 
+  margin: 10px 20px;
+  padding: 20px;
+  color: #fff;
+  
+}
+
+.order-form label {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form input[type="phone"],
+.order-form input[type="number"],
+.order-form input[type="tel"],
+.order-form select,
+.order-form textarea {
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.order-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.order-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+footer {
+  background-image: url(images/food.png);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact,
+.map {
+  flex-basis: 40%;
+  text-align: right;
+  margin: 0 30px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px;
+  
 }
